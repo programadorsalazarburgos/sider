@@ -1,0 +1,90 @@
+rutas
+
+//consulta
+http://localhost:8080/admin/postgrupos#/admin/postgrupos/consulta
+GruposConsultaCrtl
+grupos-consulta
+postgrupos.consulta
+base_api + "/admin/postgrupos/consulta"
+Route::get("admin/postgrupos/consulta", "PostGruposController@ConsultaGrupos");
+obtenergrupos/all
+Route::get('/api/v0/obtenergrupos/all', 'PostGruposController@ObtenerGruposAll');
+
+
+//asistencias
+
+http://localhost:8080/admin/postgrupos#/admin/postgrupos/asistencias
+GruposConsultaAsistenciaCrtl
+grupos-consulta-asistencia
+postgrupos.misbeneficiariosasistencias
+Route::get('/api/v0/obtener/misbeneficiariosasistencias','PostGruposController@ObtenerMisBeneficiariosAsistencias');
+
+
+//criterios
+
+admin/postcriterios#/admin/postcriterios/evaluacion/id
+/admin/postcriterios/evaluacion/:id
+EvaluacionGrupoCtrl
+evaluacion-criterios
+postcriterios.evaluacion
+
+
+//consulta evaluaciones
+
+admin/postconsultaevaluaciones#/admin/postconsultaevaluaciones
+ConsultaEvaluacionCrtl
+index-consulta-evaluacion
+postconsultaevaluaciones.
+
+
+//consulta promedio
+
+/admin/postconsultaevaluaciones#/admin/postconsultaevaluaciones/promedio/9
+ConsultaEvaluacionesPromedioGrupoCtrl
+evaluacion-promedio
+postconsultaevaluaciones.promedio
+
+
+//creacion beneficiarios
+admin/postgrupos#/admin/postgrupos/beneficiarios/9
+BeneficiarioGrupoCtrl
+beneficiario-grupos
+postgrupos.beneficiario
+
+//Editar Beneficiario
+admin/postgrupos#/admin/postgrupos/editando/mibeneficiario/7
+EditarMiBeneficiarioCtrl
+editar-mibeneficiario
+postgrupos.editarmibeneficiario
+
+//Reporte general
+admin/postreportegeneral#/admin/postreportegeneral
+BeneficiariosReporteCrtl
+index-reporte-general
+postreportegeneral.index
+
+
+//localizacion
+LocalizacionSedeBeneficiarioCtrl
+index-localizacion-sede-beneficiario
+postlocalizacion.instituciones_sedes_beneficiarios
+
+
+//localizacion Reporte Ficha
+LocalizacionBeneficiarioCtrl
+index-localizacion-beneficiario
+postlocalizacion.beneficiario
+
+//Reporte Detallado
+BeneficiariosReporteDetalladoCrtl
+index-reporte-detallado
+postreportedetallado.index
+
+
+
+
+
+
+
+
+

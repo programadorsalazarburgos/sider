@@ -1,0 +1,35 @@
+leopoldo dia 79391687      monitor
+luis fernando 1144062384   admin
+fernando munoz 	113060143  Coordinador zonal
+
+Nota: Cuando se desvincula un beneficiario el estado es = 0
+
+1.El beneficiario no pertenece a este grupo
+2.El beneficiario no volvio a las clases.
+3.El beneficiario subio de nivel
+
+
+tabla ficha
+
+beneficiario   grupo   vinculado   motivo_desvinculacion
+   	luis.        2        0                 2
+   	johan.       2.       1
+
+
+no me deje guardar un beneficiario del mismo monitor que 
+ya esta registrado en sus grupos el estado sea 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

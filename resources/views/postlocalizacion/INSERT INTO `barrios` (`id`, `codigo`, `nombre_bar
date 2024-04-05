@@ -1,0 +1,345 @@
+INSERT INTO `barrios` (`id`, `codigo`, `nombre_barrio`, `comuna_id`, `created_at`, `updated_at`) VALUES
+(1, NULL, 'cedro', 1, '2017-12-09 00:16:55', '2017-12-29 22:20:14'),
+(2, NULL, 'colseguros', 1, '2017-12-09 08:19:17', '2017-12-29 22:20:38'),
+(3, NULL, 'alameda', 1, '2017-12-12 04:02:22', '2017-12-12 04:02:22'),
+(4, NULL, 'santa ines', 1, '2017-12-12 04:02:39', '2017-12-12 04:02:39'),
+(5, NULL, 'manatiales', 2, NULL, '2017-12-29 22:20:57'),
+
+
+(1,596,Paseo de Los Almendros,5
+(2,798,Fepicol,7
+(3,1390,Yira Castro,13
+(4,1775,Lili,17
+(5,1789,El Gran Limonar - Cataya,17
+(6,2296,Parcelaciones Pance,22
+(7,597,Los Andes B - La Riviera,5
+(8,1778,Santa Anita - La Selva,17
+(9,1796,UrbanizaciÛn San Joaquin,17
+(10,2196,Potrero Grande,21
+(11,696,San LuÌs II,6
+(12,698,Sector Puente del Comercio,6
+(13,1398,El Pondaje,13
+(14,1788,Bosques del Limonar,17
+(15,1793,Ciudadela Pasoancho,17
+(16,2099,La Sultana,20
+(17,2195,PÌzamos III - Las Dalias,21
+(18,2198,Valle Grande,21
+(19,598,Torres de Comfandi,5
+(20,599,Villa del Prado - El Guabito,5
+(21,695,Fonaviemcali,6
+(22,697,UrbanizaciÛn Calimio,6
+(23,1780,El Ingenio,17
+(24,1785,Los Portales - Nuevo Rey,17
+(25,1786,CaÒaverales - Los Samanes,17
+(26,1787,El Limonar,17
+(27,1992,CaÒaveral,19
+(28,2197,Ciudadela del RÌo,21
+(29,421,Calima,4
+(30,2199,Planta de Tratamiento,21
+(31,2297,UrbanizaciÛn RÌo Lili,22
+(32,1393,Lleras Restrepo II Etapa,13
+(33,1394,MarroquÌn III,13
+(34,1395,Los Lagos,13
+(35,1397,Sector Laguna del Pondaje,13
+(36,1495,Puerta del Sol,14
+(37,1598,Mojica,15
+(38,1599,El Morichal,15
+(39,1774,Caney,17
+(40,1781,Mayapan - Las Vegas,17
+(41,1782,Las Quintas de Don SimÛn,17
+(42,1794,Prados del Limonar,17
+(43,1896,Sector MelÈndez,18
+(44,101,TerrÛn Colorado,1
+(45,102,Vista Hermosa,1
+(46,201,Santa Rita,2
+(47,202,Santa Teresita,2
+(48,203,Arboledas,2
+(49,204,NormandÌa,2
+(50,205,Juanamb˙,2
+(51,206,Centenario,2
+(52,207,Granada,2
+(53,208,Versalles,2
+(54,209,San Vicente,2
+(55,210,Santa MÛnica ,2
+(56,211,Prados del Norte,2
+(57,212,La Flora,2
+(58,213,La CampiÒa,2
+(59,214,La Paz,2
+(60,215,El Bosque,2
+(61,216,Menga,2
+(62,217,Ciudad Los Alamos,2
+(63,218,Chipichape,2
+(64,219,Brisas de los Alamos,2
+(65,301,El Nacional,3
+(66,302,El PeÒÛn,3
+(67,303,San Antonio,3
+(68,304,San Cayetano,3
+(69,305,Los Libertadores,3
+(70,306,San Juan Bosco,3
+(71,307,Santa Rosa,3
+(72,308,La Merced,3
+(73,309,San Pascual,3
+(74,310,El Calvario,3
+(75,311,San Pedro,3
+(76,312,San Nicolas,3
+(77,313,El Hoyo,3
+(78,314,El Piloto,3
+(79,315,Navarro - La Chanca,3
+(80,401,Jorge Isaacs,4
+(81,402,Santander,4
+(82,403,Porvenir,4
+(83,404,Las Delicias,4
+(84,405,Manzanares,4
+(85,406,Salomia,4
+(86,407,F·tima,4
+(87,408,Sultana - BerlÌn - San Francisco ,4
+(88,410,Popular,4
+(89,411,Ignacio Rengifo,4
+(90,412,Guillermo Valencia,4
+(91,413,La Isla,4
+(92,414,Marco Fidel Su·rez,4
+(93,415,Evaristo GarcÌa,4
+(94,416,La Esmeralda,4
+(95,417,Bolivariano,4
+(96,418,Olaya Herrera,4
+(97,419,Unidad Residencial Bueno Madrid,4
+(98,420,Flora Industrial,4
+(99,423,Industria de Licores,4
+(100,501,El Sena,5
+(101,502,Los Andes,5
+(102,503,Los Guayacanes,5
+(103,504,Chiminangos Segunda Etapa,5
+(104,505,Chiminangos Primera Etapa,5
+(105,506,Metropolitano del Norte,5
+(106,601,San Luis,6
+(107,602,Jorge Eliecer Gait·n,6
+(108,603,Paso del Comercio,6
+(109,604,Los Alc·zares,6
+(110,605,Petecuy Primera Etapa,6
+(111,606,Petecuy Segunda Etapa,6
+(112,607,La Rivera Primera Etapa,6
+(113,608,Los Guaduales,6),
+(114,609,Petecuy Tercera Etapa,6),
+(115,610,Ciudadela Floralia,6),
+(116,701,Alfonso LÛpez P. 1a. Etapa,7),
+(117,702,Alfonso LÛpez P. 2a. Etapa,7),
+(118,703,Alfonso LÛpez P. 3a. Etapa,7),
+(119,704,Puerto Nuevo,7),
+(120,705,Puerto Mallarino,7),
+(121,706,UrbanizaciÛn El ¡ngel del Hogar,7),
+(122,707,Siete de Agosto,7),
+(123,708,Los Pinos,7),
+(124,709,San Marino,7),
+(125,710,Las Ceibas,7),
+(126,711,Base AÈrea,7),
+(127,797,Parque de la CaÒa,7),
+(128,801,Primitivo Crespo,8),
+(129,802,SimÛn BolÌvar,8),
+(130,803,Saavedra Galindo,8),
+(131,804,Uribe Uribe,8),
+(132,805,Santa MÛnica Popular,8),
+(133,806,La Floresta,8),
+(134,807,BenjamÌn Herrera,8),
+(135,808,Municipal,8),
+(136,809,Industrial,8),
+(137,810,El Troncal,8),
+(138,811,Las AmÈricas,8),
+(139,812,Atanasio Girardot,8),
+(140,813,Santa Fe,8),
+(141,814,Chapinero,8),
+(142,815,Villa Colombia,8),
+(143,816,EL TrÈbol,8),
+(144,817,La Base,8),
+(145,818,UrbanizaciÛn La Nueva Base,8),
+(146,901,Alameda,9),
+(147,902,BretaÒa,9),
+(148,903,JunÌn,9),
+(149,904,Guayaquil,9),
+(150,905,Aranjuez,9),
+(151,906,Manuel MarÌa Buenaventura,9),
+(152,907,Santa MÛnica Belalc·zar,9),
+(153,908,Belalc·zar,9),
+(154,909,Sucre,9),
+(155,910,Barrio Obrero,9),
+(156,1001,El Dorado,10),
+(157,1002,El Guabal,10),
+(158,1003,La Libertad,10),
+(159,1004,Santa Elena,10),
+(160,1005,Las Acacias,10),
+(161,1006,Santo Domingo,10),
+(162,1007,Jorge Zawadsky,10),
+(163,1008,OlÌmpico,10),
+(164,1009,CristÛbal ColÛn,10),
+(165,1010,La Selva,10),
+(166,1011,Barrio Departamental,10),
+(167,1012,Pasoancho,10),
+(168,1013,Panamericano,10),
+(169,1014,Colseguros Andes,10),
+(170,1015,San Cristobal,10),
+(171,1016,Las Granjas,10),
+(172,1017,San Judas Tadeo I Etapa,10),
+(173,1018,San Judas Tadeo II Etapa,10),
+(174,1101,San Carlos,11),
+(175,1102,Maracaibo,11),
+(176,1103,La Independencia,11),
+(177,1104,La Esperanza,11),
+(178,1105,UrbanizaciÛn Boyac·,11),
+(179,1106,El JardÌn,11),
+(180,1107,La Fortaleza,11),
+(181,1108,El Recuerdo,11),
+(182,1109,Aguablanca,11),
+(183,1110,El Prado,11),
+(184,1111,20 de Julio,11),
+(185,1112,Prados de Oriente,11),
+(186,1113,Los Sauces,11),
+(187,1114,Villa del Sur,11),
+(188,1115,JosÈ HolguÌn GarcÈs,11),
+(189,1116,LeÛn XIII,11),
+(190,1117,JosÈ MarÌa CÛrdoba,11),
+(191,1118,San Pedro Claver,11),
+(192,1119,Los Conquistadores,11),
+(193,1120,La Gran Colombia,11),
+(194,1121,San Benito,11),
+(195,1122,Primavera,11),
+(196,1201,Villanueva,12),
+(197,1202,Asturias,12),
+(198,1203,Eduardo Santos,12),
+(199,1204,Alfonso Barberena A.,12),
+(200,1205,El Paraiso,12),
+(201,1206,Fenalco Kennedy,12),
+(202,1207,Nueva Floresta,12),
+(203,1208,Julio RincÛn,12),
+(204,1209,Doce de Octubre,12),
+(205,1210,El Rodeo,12),
+(206,1211,Sindical,12),
+(207,1212,Bello Horizonte,12),
+(208,1301,Ulpiano Lloreda,13),
+(209,1302,El Vergel,13),
+(210,1303,El Poblado I,13),
+(211,1304,El Poblado II,13),
+(212,1305,Los Comuneros Segunda Etapa,13),
+(213,1306,Ricardo Balc·zar,13),
+(214,1307,Omar Torrijos,13),
+(215,1308,El Diamante,13),
+(216,1309,Lleras Restrepo,13),
+(217,1310,Villa del Lago,13),
+(218,1311,Los Robles,13),
+(219,1312,Rodrigo Lara Bonilla,13),
+(220,1313,Charco Azul,13),
+(221,1314,Villablanca,13),
+(222,1315,Calipso,13),
+(223,1401,Alfonso Bonilla AragÛn,14),
+(224,1402,Alirio Mora Beltr·n,14),
+(225,1403,Manuela Beltr·n,14),
+(226,1404,Las OrquÌdeas,14),
+(227,1405,JosÈ Manuel MarroquÌn Segunda Etapa,14),
+(228,1406,JosÈ Manuel MarroquÌn Primera Etapa,14),
+(229,1501,El Retiro,15),
+(230,1502,Comuneros I,15),
+(231,1503,Laureano GÛmez,15),
+(232,1504,El Vallado,15),
+(233,1601,Mariano Ramos,16),
+(234,1602,Rep˙blica de Israel,16),
+(235,1603,UniÛn de Vivienda Popular,16),
+(236,1604,Antonio NariÒo,16),
+(237,1605,Brisas del Limonar,16),
+(238,1701,La Playa,17),
+(239,1702,Primero de Mayo,17),
+(240,1703,Ciudadela Comfandi,17),
+(241,1705,Ciudad Universitaria,17),
+(242,1801,Buenos Aires,18),
+(243,1802,Barrio Caldas,18),
+(244,1803,Los Chorros,18),
+(245,1804,MelÈndez,18),
+(246,1805,Los Farallones,18),
+(247,1807,Francisco Eladio Ramirez,18),
+(248,1808,Prados del Sur,18),
+(249,1809,Horizontes,18),
+(250,1810,Mario Correa Rengifo,18),
+(251,1811,Lourdes,18),
+(252,1812,Colinas del Sur,18),
+(253,1813,AlfÈrez Real,18),
+(254,1814,N·poles,18),
+(255,1815,El Jord·n,18),
+(256,1816,Cuarteles Napoles,18),
+(257,1901,El Refugio,19),
+(258,1902,La Cascada,19),
+(259,1903,El Lido,19),
+(260,1904,UrbanizaciÛn Tequendama,19),
+(261,1905,Barrio EucarÌstico,19),
+(262,1906,San Fernando Nuevo,19),
+(263,1907,UrbanizaciÛn Nueva Granada,19),
+(264,1908,Santa Isabel,19),
+(265,1909,Bellavista,19),
+(266,1910,San Fernando Viejo,19),
+(267,1911,Miraflores,19),
+(268,1912,3 de Julio,19),
+(269,1913,El Cedro,19),
+(270,1914,ChampagÒat,19),
+(271,1915,UrbanizaciÛn Colseguros,19),
+(272,1916,Los Cambulos,19),
+(273,1917,El MortiÒal,19),
+(274,1918,UrbanizaciÛn Militar,19),
+(275,1919,Cuarto de Legua - Guadalupe,19),
+(276,1921,Nueva Tequendama ,19),
+(277,1922,Camino Real - JoaquÌn Borrero Sinisterra,19),
+(278,1923,Camino Real - Los Fundadores,19),
+(279,2001,El Cortijo,20),
+(280,2002,Belisario Caicedo,20),
+(281,2003,SiloÈ,20),
+(282,2004,Lleras Camargo,20),
+(283,2005,BelÈn,20),
+(284,2006,Brisas de Mayo,20),
+(285,2007,Tierra Blanca,20),
+(286,2008,Pueblo Joven,20),
+(287,2101,PÌzamos I,21),
+(288,2102,PÌzamos II,21),
+(289,2103,Calimio Desepaz,21),
+(290,2104,El Remanso,21),
+(291,2105,Los LÌderes,21),
+(292,2106,Desepaz Invicali,21),
+(293,2107,Compartir,21),
+(294,2108,Ciudad Talanga,21),
+(295,2201,UrbanizaciÛn Ciudad JardÌn,22),
+(296,196,Sector Patio Bonito,1),
+(297,199,Aguacatal,1),
+(298,293,UrbanizaciÛn La Merced,2),
+(299,294,Vipasa,2),
+(300,295,UrbanizaciÛn La Flora,2),
+(301,296,Altos de Menga,2),
+(302,298,Area en desarrollo - Parque del Amor,2),
+(303,497,La Alianza,4),
+(304,594,Los Parques - Barranquilla,5),
+(305,595,Villa del Sol,5),
+(306,1898,Alto N·poles ,18),
+(307,1982,Santa Barbara,19),
+(308,1985,Unidad Residencial El Coliseo,19),
+(309,1999,U.D. Alberto Galindo -  Plaza de Toros,19),
+(310,2194,Villamercedes I - Villa Luz - Las Garzas,21),
+(311,1399,Sector Asprosocial-Diamante,13),
+(312,1496,Los Naranjos I,14),
+(313,1498,Promociones Populares B,14),
+(314,1499,Los Naranjos II,14),
+(315,1596,Ciudad Cordoba,15),
+(316,1696,¡rea desocupada,16),
+(317,1697,Ciudad 2000,16),
+(318,1698,La Alborada,16),
+(319,1783,Ciudad Capri,17),
+(320,1784,La Hacienda,17),
+(321,1790,El Gran Limonar,17),
+(322,1791,Unicentro Cali,17),
+(323,1890,Sector Alto de Los Chorros,18),
+(324,1891,Polvorines,18
+(325,1897,Sector Alto Jord·n,18),
+(326,1981,Altos de Santa Isabel -  La Morelia,19),
+(327,1983,Tejares - Cristales,19),
+(328,1984,Unidad Residencial Santiago de Cali,19),
+(329,1988,CaÒaveralejo - Seguros Patria,19),
+(330,1994,Pampa Linda,19),
+(331,1995,Sector CaÒaveralejo Guadalupe Antigua,19),
+(332,2097,Carabineros,20),
+(333,2098,Venezuela - UrbanizaciÛn CaÒaveralejo,20),
+(334,2298,Ciudad Campestre,22),
+(335,2299,Club Campestre,22);
+
+
