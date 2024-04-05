@@ -288,25 +288,7 @@
                   </div>
               </div>
               <div class="clearfix"></div><br>
-              <!-- <div deckgrid class="deckgrid contenedor" source="programas">
-    <div class="contenedor-cards">
-        <div class="contenedor-card-item" >
-            <div class="a-card contenedor-card-item-wrapper">
-                <a ng-href="#/descripcion/@{{card.id}}">
-                    <img src="" data-ng-src="@{{card.image}}">
-                </a>
-                <h5></h5>
-                <div class="contenedor-info">
-                    <div class="info">
-                        <p class="titulo">Programas</p>
-		                    <span class="categoria">Categoría</span>
-                    </div>
-                    <div class="fondo"></div>
-                </div>
-              </div>
-          </div>
-     </div>
-</div> -->
+
               <div deckgrid class="deckgrid" source="programas">
                   <div class="a-card">
                       <a ng-href="#/descripcion/@{{card.id}}">
@@ -327,7 +309,7 @@
                   <div class="col-md-12">
                       <div class="portlet box">
                           <div class="portlet-header">
-                              <h5 style="text-align:center"><strong>TOTAL DE BENEFICIARIOS POR PROGRAMA</strong></h5>
+                              <h5 style="text-align:center"><strong>Grafico. TOTAL DE BENEFICIARIOS POR PROGRAMA</strong></h5>
                               <div class="clearfix"></div><br>
                               <div id="chartdiv">
                           </div>
@@ -336,76 +318,5 @@
               </div>
           </div>
       </div>
-      <!-- 
-<div class="page-content">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="portlet box">
-                <div class="portlet-header">
-                <h5 style="text-align:center"><strong>TOTAL DE BENEFICIARIOS POR PROGRAMA</strong></h5>
-<div id="chartdiv">
-  
-</div>     
-<h5 style="text-align:center">Nombre del Programa</h5>
-</div>
-</div>
-</div>
- -->
-      <!-- 
-<div class="page-content">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="portlet box">
-                <div class="portlet-header">
-                <h5 style="text-align:center"><strong>TOTAL DE BENEFICIARIOS POR COMUNA</strong></h5>
-<div id="chartcomuna">
-  
-</div>     
-<h5 style="text-align:center">Nombre Comuna</h5>
-</div>
-</div>
-</div>
 
-
-
-<div class='row'>
-  <div class="col-md-6">
-    <label class="control-label" for="empleado-tipo_doc">Programa</label>
-    <select class="form-control" name="programa" id="programa" required ng-change="MetasPrograma()" ng-model="programa.unit" ng-options="unit.id as unit.nombre_programa for unit in programas">
-      <option value=''>Selecciona Programa</option>
-    </select>
-  </div>
-  <div class="col-md-6">
-    <label class="control-label" for="empleado-documento">Metas Programa</label>
-        <select name="meta" ng-model="meta" class="form-control" required ng-change='selectedMeta(meta)'>
-            <option value="">Seleccione Meta</option>
-            <option ng-repeat="meta in metasprogramas" value="@{{ meta.id }}">@{{ meta.nombre_meta }} @{{ meta.periodo }}</option>
-        </select>
-  </div>
-</div>
-<div class="bloque" style="text-align:center;" ng-show="graficoindicadores">
-  <h3 class="no-span">ALCANCE META @{{ nombre_meta | uppercase }} @{{metaalcance | number : 0}} </h3>
-    <div id="chart1" style="height: 500px;">
-        <svg></svg>
-    </div>
-    <div class="clearfix"></div><br>
-    <center>
-      <table width="60%" border="1" cellspacing="0" cellpadding="2" bordercolor="#fff" style="border-color:  beige;">
-        <tbody>
-            <tr>
-              <td height="20" bgcolor="#3097f3"><center><strong><font color="#FFFFFF" size="2">MES AVANCE</font></strong></center></td>
-              <td height="20" bgcolor="#3097f3"><center><strong><font color="#FFFFFF" size="2">AVANCE</font></strong></center></td>
-              <td height="50" bgcolor="#3097f3"><center><strong><font color="#FFFFFF" size="2">PORCENTAJE</font></strong></center></td>
-            </tr>
-            <tr ng-repeat="data in indicadoremetas">
-              <td width="50%" height="30"><strong><font color="#003F65" size="2">@{{data.label | uppercase}}</font></strong></td>
-              <td width="40%"><center><strong>@{{ data.value | number : 0 }} </a></strong></center></td>
-              <td width="60%"><center><strong>@{{ data.porcentaje | number : 0 }} %</strong></center></td>
-            </tr>     
-          </tbody>
-        </table>
-      </center>
-      </div>
-    </div>
-  </div> -->
   </div>

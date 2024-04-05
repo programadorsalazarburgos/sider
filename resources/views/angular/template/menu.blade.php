@@ -1,67 +1,72 @@
 @guest
-  <div class="sidebar-collapse menu-scroll">
-        <ul id="side-menu" class="nav">
-            <div class="clearfix"></div><br>
-        </li>
-            <li><a href="http://sider.cali.gov.co:8082"><i class="fa fa-book" aria-hidden="false">
-                <div class="icon-bg bg-orange"></div>
-            </i><span class="menu-title">Semilleros</span><span class="fa arrow"></span><span
-            class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Más Recreo</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Team Cali</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">In Cali</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Cali en forma</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Rutas de vida</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Ciclo Vida</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Cali juega</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
-            <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Cali incluye</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+<div class="sidebar-collapse menu-scroll">
+    <ul id="side-menu" class="nav">
+        <div class="clearfix"></div><br>
+    </li>
+    <li><a href="http://sider.cali.gov.co:8082"><i class="fa fa-book" aria-hidden="false">
+        <div class="icon-bg bg-orange"></div>
+    </i><span class="menu-title">DeporVida</span><span class="fa arrow"></span><span
+    class="label label-yellow"></span></a>
+</li>
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Desafio Elite</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
 
-            <div class="icon-bg bg-orange"></div>
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Deporte Escolar y Universitario</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
 
-        </i><span class="menu-title">Más vitales</span><span class="fa arrow"></span><span
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Deporte al Barrio</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
 
-        class="label label-yellow"></span></a>
-        </li>
-        <li><a href="http://18.116.147.172/" target="_blank"><i class="fa fa-book" aria-hidden="false">
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">ActivaMente</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Cali Incluyente</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Carreras y Caminatas</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">SobreRuedas</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Cali juega</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="{{ route('login') }}"><i class="fa fa-book" aria-hidden="false">
+    <div class="icon-bg bg-orange"></div>
+</i><span class="menu-title">Poblaciones y Etnias</span><span class="fa arrow"></span><span
+class="label label-yellow"></span></a>
+</li>
+
+<li><a href="http://18.116.147.172/" target="_blank"><i class="fa fa-book" aria-hidden="false">
 
 <div class="icon-bg bg-orange"></div>
 
-</i><span class="menu-title">Gestión de escenarios</span><span class="fa arrow"></span><span
+</i><span class="menu-title">Gestión de Escenarios</span><span class="fa arrow"></span><span
 
 class="label label-yellow"></span></a>
 </li>
@@ -69,16 +74,6 @@ class="label label-yellow"></span></a>
 </div>
 
 @else
-
-<!-- @if(Auth::user()->numero_documento != "20190902")
-<li>
-    <a href="{{url('/admin/postlocalizacion#/admin/postlocalizacion')}}"><i class="fa fa-codepen" aria-hidden="false">
-        <div class="icon-bg bg-orange"></div>
-        </i><span class="menu-title">Reportes Por Comuna</span><span class="fa arrow"></span><span
-        class="label label-yellow"></span>
-    </a>
-</li>
-@endif -->
 
 <div class="sidebar-collapse menu-scroll">
     <ul id="side-menu" class="nav">
@@ -95,7 +90,7 @@ class="label label-yellow"></span></a>
               @endif
               @if(Auth::user()->tenantId == "2767829213")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">MAS RECREO</p>
+                  <p align="center" style="font-size: 12px;">Deporte Escolar y Universitario</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -105,7 +100,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "3651901612")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">CALI INCLUYE</p>
+                  <p align="center" style="font-size: 12px;">Poblaciones y Etnias</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -125,7 +120,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "7233109821")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">IN CALI</p>
+                  <p align="center" style="font-size: 12px;">Cali Incluyente</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -135,7 +130,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "1240916273")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">MAS VITALES</p>
+                  <p align="center" style="font-size: 12px;">Deporte al Barrio</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -145,7 +140,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "2871155601")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">RUTAS DE VIDA</p>
+                  <p align="center" style="font-size: 12px;">Carreras y Caminatas</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -155,7 +150,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "8762109662")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">CALI EN FORMA</p>
+                  <p align="center" style="font-size: 12px;">ActivaMente</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -165,7 +160,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "4432891188")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">TEAM CALI</p>
+                  <p align="center" style="font-size: 12px;">Desafio Elite</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>
@@ -195,7 +190,7 @@ class="label label-yellow"></span></a>
 
               @if(Auth::user()->tenantId == "1177624100")
               <div class="info">
-                  <p align="center" style="font-size: 12px;">CICLO VIDA</p>
+                  <p align="center" style="font-size: 12px;">SobreRuedas</p>
                   <p style="font-size: 12px;">{{ strtoupper(Auth::user()->primer_nombre) }} {{ strtoupper(Auth::user()->primer_apellido) }}</p>
                   <ul class="list-inline list-unstyled">
                   </ul>

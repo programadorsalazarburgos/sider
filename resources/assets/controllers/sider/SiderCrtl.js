@@ -95,7 +95,7 @@ $http.get(base_api + "/obtener/programasbeneficiarios")
    
 
 $scope.deporvida = {
-  "country": "SEMILLEROS DEPORTIVOS",
+  "country": "DEPORVIDA",
   "visits": response.TotalDeporvida,
   "color": "#FF0F00"
 
@@ -103,14 +103,14 @@ $scope.deporvida = {
 
 
 $scope.DeporteEscolar = {
-  "country": "MAS RECREO",
+  "country": "DEPORTE ESCOLAR UNIVERSITARIO",
   "visits": response.TotalDeporteEscolar,
   "color": "#FF9E01"
 
 }
 
 $scope.DeporteAsociado = {
-  "country": "TEAM CALI",
+  "country": "DESAFIO ELITE",
   "visits": response.TotalDeporteAsociado,
   "color": "#FCD202"
 
@@ -118,28 +118,28 @@ $scope.DeporteAsociado = {
 
 
 $scope.CaliIntegra = {
-  "country": "IN CALI",
+  "country": "CALI INCLUYENTE",
   "visits": response.TotalCaliIntegra,
   "color": "#B0DE09"
 
 }
 
 $scope.CuerpoyEspiritu = {
-  "country": "CALI EN FORMA",
+  "country": "ACTIVAMENTE",
   "visits": response.TotalCuerpoyEspiritu,
   "color": "#04D215"
 
 }
 
 $scope.CarrerasyCamintas = {
-  "country": "RUTAS DE VIDA",
+  "country": "CARRERAS Y CAMINATAS",
   "visits": response.TotalCarrerasyCamintas,
   "color": "#0D8ECF"
 
 }
 
 $scope.Viactiva = {
-  "country": "CICLO VIDA",
+  "country": "SOBRERUEDAS",
   "visits": response.TotalViactiva,
   "color": "#0D52D1"
 
@@ -153,7 +153,7 @@ $scope.ViveelParque = {
 }
 
 $scope.CaliAcoge = {
-  "country": "CALI INCLUYE",
+  "country": "POBLACIONES Y ETNIAS",
   "visits": response.TotalCaliAcoge,
   "color": "#8A0CCF"
 
@@ -161,7 +161,7 @@ $scope.CaliAcoge = {
 
 
 $scope.CanasyGanas = {
-  "country": "MÁS VITALES",
+  "country": "DEPORTE AL BARRIO",
   "visits": response.TotalCanasyGanas,
   "color": "#8A0CCF"
 
@@ -174,15 +174,15 @@ var chart = AmCharts.makeChart("chartdiv", {
   "marginRight": 70,
   "dataProvider": [
     $scope.deporvida, 
-    $scope.DeporteEscolar, 
     $scope.DeporteAsociado, 
-    $scope.CaliIntegra, 
+    $scope.DeporteEscolar, 
+    $scope.CanasyGanas,
     $scope.CuerpoyEspiritu, 
+    $scope.CaliIntegra, 
     $scope.CarrerasyCamintas, 
     $scope.Viactiva, 
     $scope.ViveelParque, 
     $scope.CaliAcoge, 
-    $scope.CanasyGanas
 
  ],
 

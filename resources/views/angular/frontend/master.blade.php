@@ -218,7 +218,7 @@ body{ font-family: arial !important; }
 </head>
 <body style="font-family: arial !important;">
 
-  <div align="center"><img src="{{ asset('images/BANNERS.png') }}" width="100%"></div>
+  <div align="center"><img src="{{ asset('images/BANNER_SIDER.png') }}" width="100%"></div>
   <div id="app">
   <div>
 
